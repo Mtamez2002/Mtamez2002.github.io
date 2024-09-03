@@ -1,0 +1,4 @@
+SELECT VendorContactLName + ', ' + VendorContactFName AS [Full Name]
+FROM [dbo].[Vendors]
+WHERE VendorContactFName LIKE '[abcf]%'
+ORDER BY VendorContactFName 
