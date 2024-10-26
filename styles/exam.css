@@ -27,7 +27,7 @@ article {
     margin-left: 2em;
 }
 article h2{
-    column-span: all;
+    column-span: initial;
 }
 article img {
     float:left;
