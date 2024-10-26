@@ -3,8 +3,9 @@ body {
     margin: 15px auto;
     background-image: url(../images/Sam.jpg); 
     background-repeat: repeat-y;
-    background-position: right;
+    background-position: right top;
     background-attachment: fixed;
+    background-size:auto;
 }
 a {
     color: blue;
