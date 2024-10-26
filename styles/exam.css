@@ -15,7 +15,8 @@ a:focus, a:hover {
     border-style: dotted solid;
 }
 h1,h2.h3.h4{
-    font-weight: bold
+    font-weight: bold;
+    color:blue;
 }
 article {
     clear:left;
