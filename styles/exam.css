@@ -63,3 +63,8 @@ aside {
     max-width: 100%; 
     height: 150px; 
 }
+footer{
+    clear:both;
+    border-top: 2px solid blue;
+    padding: 1em 0;
+}
