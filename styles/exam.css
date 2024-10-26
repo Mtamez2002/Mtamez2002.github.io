@@ -43,3 +43,7 @@ article::before, aside::before {
     height: 1px; 
     background: #000; 
 }
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
