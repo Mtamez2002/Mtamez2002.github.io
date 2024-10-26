@@ -29,11 +29,7 @@ article {
 article h2{
     column-span: initial;
 }
-article img {
-    float:left;
-    margin-right: 1em;
-    margin-bottom:1em;
-}
+
 article p:first-letter {
     font-size: 3em;
     font-weight: bold;
@@ -61,7 +57,7 @@ aside {
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 .wrap-image {
-    float: right; 
+    float: left; 
     margin-left: 15px; 
     margin-bottom: 10px; 
     max-width: 100%; 
