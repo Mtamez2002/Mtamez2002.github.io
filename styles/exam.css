@@ -1,52 +1,57 @@
 body {
     width: 95%;
     margin: 15px auto;
-    background-image: url('images/Sam.png'); 
+    background-image: url("Images/Sam.png"); 
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
 }
-
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    border:3px blue;
+    border-style: dotted solid;
+}
+h1,h2.h3.h4{
+    font-weight: bold
+}
 article {
+    clear:left;
     width: 75%;
-    margin-right: 20px; 
+    float:left;
+    column-count: 3;
+    column-rule:2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+article h2{
+    column-span: all;
+}
+article img {
+    float:left;
+    margin-right: 1em;
+    margin-bottom:1em;
+}
+article p:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color:lightgreen;
 }
 
-aside {
-    width: 20%;
-    position: fixed; 
-    right: 0; 
-    top: 100px; 
-    
-}
-
-ul, ol {
-    list-style-type: none; 
-}
-
-ul li::before {
-    content: "I"; 
-    margin-right: 5px; 
-}
 
 
-body::before, body::after {
-    content: '';
-    display: block;
-    height: 1px; 
-    background: #000; 
-}
 
-article::before, aside::before {
-    content: '';
-    display: block;
-    height: 1px; 
-    background: #000; 
-}
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
-}
+
+
+
+
+
+
+
+
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
@@ -61,30 +66,6 @@ footer p.copyright {
     border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
-aside ol{
-    list-style-type: upper-roman;
-}
-aside ul{
-    list-style-type: square;
-}
-
-h1, h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-p {
-    text-indent: 0; 
-    margin: 15px 0; 
-}
-
-p::first-letter {
-    font-size: 2em; 
-    font-weight: bold;
-    font-style: italic;
-    float: left; 
-    margin-right: 5px; 
-}
 .wrap-image {
     float: right; 
     margin-left: 15px; 
