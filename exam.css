@@ -1,0 +1,45 @@
+body {
+    width: 95%;
+    margin: 15px auto;
+    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+article {
+    width: 75%;
+    margin-right: 20px; 
+}
+
+aside {
+    width: 20%;
+    position: fixed; 
+    right: 0; 
+    top: 100px; 
+    
+}
+
+ul, ol {
+    list-style-type: none; 
+}
+
+ul li::before {
+    content: "I"; 
+    margin-right: 5px; 
+}
+
+
+body::before, body::after {
+    content: '';
+    display: block;
+    height: 1px; 
+    background: #000; 
+}
+
+article::before, aside::before {
+    content: '';
+    display: block;
+    height: 1px; 
+    background: #000; 
+}
