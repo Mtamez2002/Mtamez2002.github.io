@@ -85,3 +85,10 @@ p::first-letter {
     float: left; 
     margin-right: 5px; 
 }
+.wrap-image {
+    float: right; 
+    margin-left: 15px; 
+    margin-bottom: 10px; 
+    max-width: 100%; 
+    height: auto; 
+}
