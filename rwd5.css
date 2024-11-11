@@ -99,10 +99,10 @@ html, body {
         padding: 0 1em;
     }
     article h2 {
-        font-size: 1.1;
+        font-size: 1.1em;
     }
     article p {
-        font-size: 1em;
+        font-size: .8em;
     }
     article img {
         margin: auto;
@@ -113,7 +113,7 @@ html, body {
     footer {
         border-top:2px solid = #f46b45;
         text-align: center;
-        font-size: .8em;
+        font-size: .6em;
     }
     @media only screen and(max-width: 700px) {
         .menu-button-container {
