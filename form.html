@@ -47,6 +47,49 @@
             title="Must be 999-999-999 format"
             autocomplete="on"><br>
     </fieldset>
+    <fieldset>
+        <legend>Membership Information</legend>
+        
+        <label for="membership-type">Membership Type:</label>
+        <select id="membership-type" name="membership-type">
+            <option value="junior">Junior</option>
+            <option value="regular">Regular</option>
+            <option value="charter">Charter</option>
+        </select><br><br>
+        
+        <label for="starting-date">Starting Date:</label>
+        <input type="date" id="starting-date" name="starting-date" required><br><br>
+        
+        <label for="tickets">Number of Tickets:</label>
+        <input type="number" id="tickets" name="tickets" min="1" max="4" value="2"><br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>How Did You Hear About Us?</legend>
+        <label for="source">Please select:</label><br>
+        <input type="radio" id="internet" name="source" value="internet">
+        <label for="internet">Internet</label><br>
+        <input type="radio" id="friend" name="source" value="friend">
+        <label for="friend">Friend</label><br>
+        <input type="radio" id="advertisement" name="source" value="advertisement">
+        <label for="advertisement">Advertisement</label><br>
+        <input type="radio" id="other" name="source" value="other">
+        <label for="other">Other</label><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Comments</legend>
+        
+        <label for="comments">Your Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Submit Your Membership</legend>
+        
+        <label for="agree">I agree to the terms and conditions:</label>
+        <input type="checkbox" id="agree" name="agree" required><br><br>
+        
+        <button type="submit">Submit</button>
+    </fieldset>
 
     </form>
 </body>
